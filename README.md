@@ -15,19 +15,6 @@ Generate customizable QR codes instantly with live preview, color control, error
 
 ---
 
-## 📂 Project Structure
-
-app/
-└── qr/
-└── page.tsx # Server component page that renders the QR generator UI
-components/
-└── qr-code-generator.tsx # Client component with all controls and preview
-
-- **UI Components Used:** Input, Label, Button, Card, Select, Slider, Tabs  
-- **No API routes required** (but optional SVG API can be added)
-
----
-
 ## 🎯 Core Features
 
 - ✅ **Inputs:** Text/URL, size, margin, error correction (`L`, `M`, `Q`, `H`), foreground & background color  
@@ -74,16 +61,7 @@ components/
 
 ---
 
-## 📦 Deployment
-
-Publishing is **one-click** using the **v0 "Publish"** button.  
-Runs entirely client-side, so **no backend or server setup required**.  
-
----
-
-## ❤️ Credits
 
 Made with ❤️ and lots of coffee.  
-Built using Next.js + Tailwind + shadcn/ui.
 
 ---

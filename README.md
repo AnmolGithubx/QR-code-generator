@@ -48,7 +48,6 @@ Generate customizable QR codes instantly with live preview, color control, error
 
 - **Layout**  
   - Flexbox with `gap` utilities  
-  - Mobile-first design  
   - `Card` components for structured sections  
   - Clean, minimal UI (no gradients)  
 
@@ -57,7 +56,6 @@ Generate customizable QR codes instantly with live preview, color control, error
 ## ⚡️ API Usage
 
 - **No APIs required** → generator runs entirely **client-side** with the `qrcode` package.  
-- Optional: Add `/api/qr` for **server-rendered SVGs** (useful for strict reproducibility or large QR codes).  
 
 ---
 
